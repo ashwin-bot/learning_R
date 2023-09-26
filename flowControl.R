@@ -28,3 +28,17 @@ for( t in a ){
 # for() loop is used to iterate over a data structure .
 # for() loop is used as in same way in Python .
 
+result <- "Hello"
+i = 1
+
+repeat{
+  print(i);
+  i <- i + 1;
+  if(i == 10){
+    print(result);
+    break;
+  }
+}
+
+# repeat() loop is a infinite loop .
+# repeat() loop repeats the command until if() condition is meet and loop breaks .
